@@ -3,18 +3,34 @@ html {
 }
 
 header {
-    font-size: 2rem;
-    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    position: fixed; 
     left: 0;
     right: 0;
-    top: 0;
-    padding: .5em 1em;
+    top: 0; 
+    margin-top: auto;
+    padding-left: .5em;
+    padding-right: .5em;
     box-shadow: 0 2px 4px -2px black;
-    background-color: aliceblue;
+    background-color: aliceblue;  
 }
 
 body {
     background-color: aqua;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:aquamarine;
+    color: black;
+    padding-left: 5%;
+    text-align: left;
 }
 
 a {
@@ -22,15 +38,47 @@ a {
     color: inherit
 }
 
-.name {
+/* .name {
     float: left;
-}
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+} */
 
-.links {
-    float: right;
+/* .links {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
     margin-left: .25em;    
+} */
+
+.main {
+    margin-top: 80px;
 }
 
 .active {
     text-decoration: underline;
 }
+
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background-color: aliceblue;
+    top: 0;
+    left: 0;
+    padding: 14px;  
+} */
+
+/* #navbar a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px;
+} */
