@@ -45,7 +45,7 @@ a {
 }
 
 .main {
-    margin-top: 80px;
+    margin-top: 85px;
 }
 
 .quote {
@@ -56,6 +56,10 @@ a {
 
 .active {
     text-decoration: underline;
+}
+
+.profile {
+    height: 100px;
 }
 
 /* .sticky {
