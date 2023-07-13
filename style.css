@@ -67,6 +67,10 @@ a {
     align-items: left;
 }
 
+.chicken {
+    height: 200px;
+}
+
 /* .sticky {
     position: fixed;
     top: 0;
