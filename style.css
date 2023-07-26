@@ -15,11 +15,11 @@ header {
     padding-left: .5em;
     padding-right: .5em;
     box-shadow: 0 2px 4px -2px black;
-    background-color: aliceblue;  
+    background-color: #C4E0F9;  
 }
 
-body {
-    background-color: aqua;
+body {    
+    background: linear-gradient(to right, #2EC0F9, #67AAF9, #9BBDF9);
 }
 
 footer {
@@ -27,7 +27,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:aquamarine;
+    background-color: #B95F89;
     color: black;
     padding-left: 5%;
     text-align: left;
