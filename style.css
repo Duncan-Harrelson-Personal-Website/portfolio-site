@@ -86,6 +86,8 @@ fieldset {
 
 .profile {
     height: 100px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 8px 8px #2EC0F9 inset; */
 }
 
 .enjoy {
